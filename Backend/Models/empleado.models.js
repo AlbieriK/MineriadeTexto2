@@ -1,0 +1,11 @@
+import mongoose, { Schema } from "mongoose";
+
+const esquemae = new Schema({
+    name: String,
+    apepat: String,
+    apemat: String,
+    noEm: Number,
+    Salario: Number
+});
+
+export const modeloE = new model("TablaEmpleados", esquemaEmpleados);
