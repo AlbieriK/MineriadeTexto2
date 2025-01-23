@@ -8,4 +8,5 @@ const esquemae = new Schema({
     Salario: Number
 });
 
-export const modeloE = new model("TablaEmpleados", esquemaEmpleados);
+export const modeloEm = new model("TablaEmpleados", esquemaEmpleados);
+
